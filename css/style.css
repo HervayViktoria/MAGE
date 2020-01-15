@@ -1,0 +1,227 @@
+html{
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+  
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2C5364, #203A43, #0F2027) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    font-weight: bold;
+}
+*{
+    font-family: "Lucida Console", Monaco, monospace
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: bold;
+  
+}
+
+input{
+    background-color: rgba(0, 0, 0, 0.21);
+    padding: 5px;
+    color: white;
+    
+}
+table th, table td{
+    background-color: rgba(255,255,255,0);
+}
+a{
+   /* color: rgb(38, 255, 64);*/
+   color: #e9f1fe;
+   
+}
+a:hover{
+    color: gray;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    
+}
+/* Footer lenttartása */
+#specialCon{
+    min-height: 100%;
+}
+#main{
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 1rem;
+    
+}
+
+footer{
+    
+    position: relative;
+    height: 30px;
+    margin-top: 1rem;
+    clear: both;
+    padding-left: 5px;
+    
+}
+
+/*profil oldal success/error - message */
+.Error{
+    color: #FF7C64;
+    
+}
+
+.Success{
+    color: #64FF76;
+}
+
+.message{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: .25rem;
+    margin: 15px auto;
+    background-color: rgba(255, 255, 255, 0.21);
+    text-align: center;
+    text-shadow: 0.5px 0.5px black;
+   
+ 
+
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.31);
+}
+
+.btn{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 0px;
+    maring: 1px;
+   
+}
+.btn:hover{
+    color: #434343;
+}
+
+.navbar{
+    background-color: rgba(0,0,0, 0.91);
+}
+/*navbar hamburger icon */
+.fa-bars{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-menu{
+    background-color: rgba(0,0,0, 0.91);
+    color: white;
+    
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.dropdown-item:hover{
+    background-color: rgba(0,32,32, 0.91);
+    color: white;
+}
+
+.hello{
+    margin-bottom: 0.5rem;   
+    padding: 0.5rem;
+    background-color: rgba(255,255,255,0.21);
+    border-radius: 4rem;
+    display: inline-block;
+    color: white;
+    
+}
+
+.myBubble{
+    background-color: rgba(255,255,255,0.31);
+    border-radius: 3rem;
+    padding: 10px;
+
+}
+.myCenter{
+    display: flex;
+    justify-content: center;
+}
+.myCenter span{
+    
+    text-align: center;
+    text-shadow: 0.5px 0.5px black;
+    margin: 5px;
+    border-radius: .50rem;
+    font-weight: bold;
+   
+}
+/*conjug + past tense */
+#myDropdown{
+    
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.81);
+
+}
+
+.dropdownVerbs{
+    color: white;
+}
+
+.hunVerbs{
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    border-radius: .25rem;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.inf{
+    font-size: 200%;
+}
+
+.myBorder{
+    border:  1px solid white;
+    border-radius: 555px 25px 15px 25px/25px 5px 35px 555px;
+    background-color: rgba(255,255,255,0.11);
+}
+.bigger{
+    font-size: 200%;
+    font-weight: bold;
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.signUpStyle{
+    margin-bottom: 5px;
+    text-align: center;
+}
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    h2,h3,  h4, .verb, .pron{
+        font-size: 1.3em; 
+    }
+    
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+   h2,h3, h4, .verb, .pron{
+        font-size: 1.1em; 
+        }
+        
+    }
+@media all and (max-width: 500px) { /* screen size until 500px */
+    h2,h3, h4, .verb, .pron{
+        font-size: 1em;
+        }
+       
+    }

@@ -1,0 +1,67 @@
+#success{
+    display: none;
+ 
+    padding: 1rem;
+    margin: 5px;
+    
+    border:  1px solid white;
+    border-radius: 555px 25px 15px 25px/25px 5px 35px 555px;
+    background-color: rgba(255,255,255,0.31);
+}
+#randomVerb{
+
+    border-radius: 4rem;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 2rem;   
+    padding: 0.5rem;
+    border: 3px solid rgba(0, 0, 0, 1);
+    color:black;
+    border:  1px solid white;
+    border-radius: 555px 25px 15px 25px/25px 5px 35px 555px;
+    background-color: rgba(255,255,255,0.41);
+    
+}
+
+.correct{
+    background-color: #64FF76;
+    color: white;
+}
+
+
+.wrong{
+    background-color: #FF7C64;
+}
+
+.task{
+  
+    text-align: center;
+    border-radius: 4rem;
+    border: 1px solid rgba(255,255,255,0.51);
+    padding: 0.8rem;
+/*    display: inline-block;*/
+    margin-bottom: 20%;
+}
+
+
+.meaning{
+    
+    border:  1px solid white;
+    border-radius: 555px 25px 15px 25px/25px 5px 35px 555px;
+    
+    text-align: center;
+    display: inline-block;
+    margin-right: 2rem;   
+    padding: 1rem;
+    color: black;
+}
+
+.myFont{
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.border{
+    border:  1px solid white;
+    border-radius: 3rem;
+}

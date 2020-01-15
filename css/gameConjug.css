@@ -1,0 +1,55 @@
+#success{
+   display: none;
+    
+    padding: 1rem;
+    margin: 5px;
+     border:  1px solid white;
+    border-radius: 555px 25px 15px 25px/25px 5px 35px 555px;
+    background-color: rgba(255,255,255,0.31);
+    
+}
+
+.pron{
+   
+    text-align: center;
+    display: block;
+    margin-bottom: 2rem;   
+    padding: 0.5rem;
+    
+    color:black;
+    vertical-align: middle;
+    
+    border:  1px solid white;
+    border-radius: 555px 25px 15px 25px/25px 5px 35px 555px;
+    background-color: rgba(255,255,255,0.31);
+    
+
+}
+
+
+.verb{
+    
+    text-align: center;
+    display: block;
+    margin-bottom: 2rem;   
+    padding: 0.5rem;
+    font-weight: bold;
+    
+    color:black;
+    
+    border:  1px solid white;
+    border-radius: 555px 25px 15px 25px/25px 5px 35px 555px;
+    background-color: rgba(255,255,255,0.31);
+   
+}
+
+.correct{
+    background-color: #64FF76;
+}
+
+.wrong{
+    background-color: #FF7C64;
+}
+
+
+

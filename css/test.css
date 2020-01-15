@@ -1,0 +1,23 @@
+/*.close{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 1%;
+    font-size: 40px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    margin-left: 1%;
+}*/
+
+#submit{
+   display: none;
+ 
+}
+#timer{
+    font-size: 150%;
+}
+#background{
+    display: none;
+}
+
+
